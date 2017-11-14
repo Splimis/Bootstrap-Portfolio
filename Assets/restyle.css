@@ -1,0 +1,105 @@
+body {
+
+}
+
+.navbar{
+	border-bottom-width: 5px;
+	border: solid;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-color: #cccccc;
+	width: 100%;
+}
+
+.container-fluid {
+	padding-left: 0px;
+}
+
+.navbar-header{
+	height: 20%;
+	background-color: #4aaaa5;
+}
+
+#myName{
+	color: white;
+	font-size: 3em;
+	font-family: 'Georgia', 
+	Times, Times New Roman, serif;
+	font-weight: bold;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 5%;
+} 
+
+.navigation{
+	float:right;
+	top: 35px;
+}
+
+.menu li {
+	display: inline;
+	position: relative;
+}
+
+#lft-btn{
+	color: #777777;
+	font-size: 1.5em;
+	border-width: 1px;
+	border: solid;
+	border-top: 0;
+    border-bottom: 0;
+  	border-left: 0;
+ 	border-color: lightgray;
+}
+
+#mdl-btn{
+	color: #777777;
+	font-size: 1.5em;
+	border-width: 1px;
+	border: solid;
+  	border-top: 0;
+  	border-bottom: 0;
+  	border-left: 0;
+  	margin-left: 4px;
+  	border-color: lightgray;
+}
+
+#rgt-btn{
+	color: #777777;
+	font-size: 1.5em;
+	margin-left: 4px;
+}
+
+#about {
+	background: black;
+	margin-top: 1%;
+	border: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+}
+
+#aboutme{
+	color: #4aaaa5;
+	font-family: 'Georgia', 
+	Times, Times New Roman, serif;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+.footer {
+	background-color: black;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	border-top: solid;
+
+}
