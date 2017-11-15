@@ -4,8 +4,8 @@ body {
 
 .navbar{
 	background-image: url();
-	border-bottom-width: 5px;
 	border: solid;
+	border-bottom-width: 5px;
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
@@ -13,13 +13,10 @@ body {
 	width: 100%;
 }
 
-.container-fluid {
-	padding-left: 0px;
-}
-
 .navbar-header{
 	height: 20%;
-	background-color: #4aaaa5;
+	background-color: #4aaaa5;\
+	position: absolute;
 }
 
 #myName{
@@ -41,6 +38,10 @@ body {
 .menu li {
 	display: inline;
 	position: relative;
+}
+
+#page-center {
+	padding-left: 0px;
 }
 
 #lft-btn{
