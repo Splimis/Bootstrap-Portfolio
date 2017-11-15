@@ -1,8 +1,9 @@
 body {
-
+	background-image: url(../Assets/milky.jpg);
 }
 
 .navbar{
+	background-image: url();
 	border-bottom-width: 5px;
 	border: solid;
 	border-left: 0;
@@ -163,29 +164,28 @@ body {
 }
 
 #name {
-	width: 35%;
 	color: #777777;
 }
 
 #email {
-	width: 35%;
 	color: #777777;
 }
 
 #field {
-	width: 95%;
-	height: 500px;
+	color: #777777;
 }
 
 #contact-submit {
 	margin-bottom: 1%;
+	background-color: #4aaaa5;
 }
 
 .resize{
 	position: relative;
-	height: 190px;
-	width: 245px;	
 	float: left;
-	margin: 20px;
-	/*margin-left: 33px;*/
+	height: 55%;
+	width: 75%;	
+	margin: 5%;
+	margin-left: 12%;
 }
+
