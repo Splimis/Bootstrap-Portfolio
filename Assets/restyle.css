@@ -84,15 +84,60 @@ body {
 	font-family: 'Georgia', 
 	Times, Times New Roman, serif;
 	font-weight: bold;
-	margin-top: 30px;
+	margin-top: 4%;
+	margin-bottom: 3%;
 }
 
+#port{
+	height: 35%;
+	width: 35%;
+	float: left;
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:4%; 
+}
 
+#text{
+	color: #777777;		
+	font-size: 1.1em;
+	line-height: 100%;
+	font-family: 'Arial', 
+	'Helvetica Neue', Helvetica, sans-serif;
+}
 
+#lnkbtns{
+	width: 12%;  
+	background-color: white;
+	border-width: 2px;
+	border: solid;
+	border-color: #cccccc;
+	margin-top: 1%;
+	margin-left: 5%;
+}
 
+#connect{
+	color: #4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', 
+	Times, Times New Roman, serif; 
+	font-weight: bold;
+}
 
+#git{
+	height: 30%;
+	width: 30%;
+}
 
+#link{
+	height: 30%;
+	width: 30%;
+}
 
+#stack{
+	height: 30%;
+	width: 30%;
+}
 
 .footer {
 	background-color: black;
@@ -101,5 +146,15 @@ body {
 	width: 100%;
 	height: 10%;
 	border-top: solid;
+
+}
+
+#footerText {
+	margin-top: 2%;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+	color: white;
 
 }
