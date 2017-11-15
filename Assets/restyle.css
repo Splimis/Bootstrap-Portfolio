@@ -1,22 +1,26 @@
 body {
-	background-image: url(../Assets/milky.jpg);
+	background-image: url(../Assets/aurora.jpg);
 }
 
 .navbar{
-	background-image: url();
+	background-color: black;
 	border: solid;
-	border-bottom-width: 5px;
+	border-bottom-width: 3px;
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
 	border-color: #cccccc;
 	width: 100%;
+	opacity: .7;
+	border-radius: 0px;
 }
 
 .navbar-header{
-	height: 20%;
-	background-color: #4aaaa5;\
-	position: absolute;
+	height: 130px;
+	background-color: #366328;
+	border-radius: 30px;
+	opacity: .6;
+	
 }
 
 #myName{
@@ -82,12 +86,13 @@ body {
 }
 
 #aboutme{
-	color: #4aaaa5;
+	color: #366328;
 	font-family: 'Georgia', 
 	Times, Times New Roman, serif;
 	font-weight: bold;
 	margin-top: 4%;
 	margin-bottom: 3%;
+	opacity: .6;
 }
 
 #port{
@@ -110,7 +115,7 @@ body {
 
 #lnkbtns{
 	width: 12%;  
-	background-color: white;
+	background-color: black;
 	border-width: 2px;
 	border: solid;
 	border-color: #cccccc;
@@ -119,11 +124,12 @@ body {
 }
 
 #connect{
-	color: #4aaaa5;
+	color: #366328;
 	text-align: center;
 	font-family: 'Georgia', 
 	Times, Times New Roman, serif; 
 	font-weight: bold;
+	opacity: .7;
 }
 
 #git{
@@ -151,6 +157,7 @@ body {
 	width: 100%;
 	height: 10%;
 	border-top: solid;
+	opacity: .6;
 
 }
 
@@ -178,7 +185,10 @@ body {
 
 #contact-submit {
 	margin-bottom: 1%;
-	background-color: #4aaaa5;
+	border-width: 0px;
+	background-color: #366328;
+	opacity: .6;
+
 }
 
 .resize{
