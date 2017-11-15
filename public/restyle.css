@@ -18,16 +18,15 @@ body {
 .navbar-header{
 	height: 130px;
 	background-color: #366328;
-	border-radius: 30px;
+	border-radius: 20px;
 	opacity: .6;
 	
 }
 
 #myName{
 	color: white;
-	font-size: 3em;
-	font-family: 'Georgia', 
-	Times, Times New Roman, serif;
+	font-size: 2.5em;
+	font-family: 'Noto Serif', serif;
 	font-weight: bold;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -203,4 +202,10 @@ body {
 #myCarousel {
 	width: 100%;
 	height: 100%;
+}
+
+#spinny{
+	color: #366328;
+	font-family: 'Noto Serif', serif;
+	opacity: 0.7;
 }
