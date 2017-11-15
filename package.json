@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "Another version of my portfolio. This time with the usage of Bootstrap. The css needs plenty of work, there are some bad practices at work here in retrospect. Progress will be made.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Splimis/Bootstrap-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Splimis/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Splimis/Bootstrap-Portfolio#readme"
+}
