@@ -127,16 +127,19 @@ body {
 #git{
 	height: 30%;
 	width: 30%;
+	margin-bottom: 5%;
 }
 
 #link{
 	height: 30%;
 	width: 30%;
+	margin-bottom: 5%;
 }
 
 #stack{
 	height: 30%;
 	width: 30%;
+	margin-bottom: 5%;
 }
 
 .footer {
@@ -157,4 +160,32 @@ body {
 	text-align:center;
 	color: white;
 
+}
+
+#name {
+	width: 35%;
+	color: #777777;
+}
+
+#email {
+	width: 35%;
+	color: #777777;
+}
+
+#field {
+	width: 95%;
+	height: 500px;
+}
+
+#contact-submit {
+	margin-bottom: 1%;
+}
+
+.resize{
+	position: relative;
+	height: 190px;
+	width: 245px;	
+	float: left;
+	margin: 20px;
+	/*margin-left: 33px;*/
 }
