@@ -14,6 +14,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 // Serve static content for the app from the 'public' directory
 app.use("/public", express.static(__dirname + '/public'));
+app.use("/scripts", express.static(__dirname + '/scripts'));
 
 
 // Override with POST having ?_method=DELETE
