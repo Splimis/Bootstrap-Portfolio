@@ -1,6 +1,8 @@
 body {
 	background-image: url(../public/assets/aurora.jpg);
+	 padding-bottom: 6rem;
 }
+
 
 .navbar{
 	background-color: black;
@@ -23,7 +25,7 @@ body {
 	
 }
 
-#myName{
+.myName{
 	color: white;
 	font-size: 2.5em;
 	font-family: 'Noto Serif', serif;
@@ -47,7 +49,7 @@ body {
 	padding-left: 0px;
 }
 
-#lft-btn{
+/*.lft-btn{
 	color: #777777;
 	font-size: 1.5em;
 	border-width: 1px;
@@ -58,7 +60,7 @@ body {
  	border-color: lightgray;
 }
 
-#mdl-btn{
+.mdl-btn{
 	color: #777777;
 	font-size: 1.5em;
 	border-width: 1px;
@@ -70,13 +72,13 @@ body {
   	border-color: lightgray;
 }
 
-#rgt-btn{
+.rgt-btn{
 	color: #777777;
 	font-size: 1.5em;
 	margin-left: 4px;
-}
+}*/
 
-#about {
+.about {
 	background: black;
 	margin-top: 1%;
 	border: solid;
@@ -84,7 +86,7 @@ body {
 	border-color: #cccccc;
 }
 
-#aboutme{
+.aboutme{
 	color: #366328;
 	font-family: 'Georgia', 
 	Times, Times New Roman, serif;
@@ -94,7 +96,7 @@ body {
 	opacity: .6;
 }
 
-#port{
+.port{
 	height: 35%;
 	width: 35%;
 	float: left;
@@ -131,7 +133,7 @@ body {
 	opacity: .7;
 }
 
-#git{
+#link, #git{
 	height: 30%;
 	width: 30%;
 	margin-bottom: 5%;
@@ -151,16 +153,19 @@ body {
 
 .footer {
 	background-color: black;
+	right: 0;
+	left: 0;
 	bottom: 0;
-	position: absolute;
+	
 	width: 100%;
-	height: 10%;
+	height: 80px;
 	border-top: solid;
 	opacity: .6;
 
+
 }
 
-#footerText {
+.footer .footerText {
 	margin-top: 2%;
 	margin-right: 0px;
 	margin-left: 0px;
