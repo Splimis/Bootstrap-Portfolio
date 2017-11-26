@@ -33,6 +33,11 @@ body {
 	margin-top: 5%;
 } 
 
+.nav-button{
+	font-size:2rem;
+	margin-top: 20px;
+}
+
 .about {
 	background: black;
 	margin-top: 1%;
