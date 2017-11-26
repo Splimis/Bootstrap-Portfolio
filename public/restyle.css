@@ -84,6 +84,7 @@ body {
 	border: solid;
 	border-width: 2px;
 	border-color: #cccccc;
+	margin-bottom: 50px;
 }
 
 .aboutme{
@@ -122,6 +123,7 @@ body {
 	border: solid;
 	border-color: #cccccc;
 	margin-top: 1%;
+	margin-bottom: 50px;
 	/*margin-left: 5%;*/
 }
 
