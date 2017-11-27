@@ -1,0 +1,41 @@
+$background-color: ;
+
+body {
+	background-image: url(../public/assets/aurora.jpg);
+	 padding-bottom: 6rem;
+}
+
+.navbar{
+	background-color: black;
+	border: solid;
+	border-bottom-width: 3px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-color: #cccccc;
+	width: 100%;
+	opacity: .7;
+	border-radius: 0px;
+}
+
+.navbar-header{
+	height: 100px;
+	background-color: #366328;
+	border-radius: 15px;
+	opacity: .6;
+}
+
+.myName{
+	color: white;
+	font-size: 2em;
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 5%;
+} 
+
+.nav-button{
+	font-size:2rem;
+	margin-top: 20px;
+}
