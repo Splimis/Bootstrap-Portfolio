@@ -1,3 +1,6 @@
+$
+
+
 body {
 	background-image: url(../public/assets/aurora.jpg);
 	 padding-bottom: 6rem;
@@ -50,7 +53,7 @@ body {
 .aboutme{
 	color: #366328;
 	font-family: 'Georgia', 
-	Times, 'Times New Roman', serif;
+	Times, Times New Roman, serif;
 	font-weight: bold;
 	margin-top: 4%;
 	margin-bottom: 3%;
@@ -85,16 +88,28 @@ body {
 	margin-bottom: 50px;
 }
 
-.connect{
+#connect{
 	color: #366328;
 	text-align: center;
 	font-family: 'Georgia', 
-	Times, Times New Roman, serif; 
+	Times, 'Times New Roman', serif; 
 	font-weight: bold;
 	opacity: .7;
 }
 
-.link, .git, .stack{
+#link, #git{
+	height: 30%;
+	width: 30%;
+	margin-bottom: 5%;
+}
+
+#link{
+	height: 30%;
+	width: 30%;
+	margin-bottom: 5%;
+}
+
+#stack{
 	height: 30%;
 	width: 30%;
 	margin-bottom: 5%;
@@ -120,12 +135,40 @@ body {
 	color: white;
 }
 
+#name {
+	color: #777777;
+}
+
+#email {
+	color: #777777;
+}
+
+#field {
+	color: #777777;
+}
+
+#contact-submit {
+	margin-bottom: 1%;
+	border-width: 0px;
+	background-color: #366328;
+	opacity: .6;
+}
+
+.resize{
+	position: relative;
+	float: left;
+	height: 55%;
+	width: 75%;	
+	margin: 5%;
+	margin-left: 12%;
+}
+
 #myCarousel {
 	width: 100%;
 	height: 100%;
 }
 
-.carousel-txt{
+.spinny{
 	color: #366328;
 	font-family: 'Noto Serif', serif;
 	opacity: 0.7;
