@@ -31,7 +31,8 @@ body {
   background: black;
   margin-top: 1%;
   margin-bottom: 50px;
-  box-shadow: 35px 35px 25px black; }
+  box-shadow: 35px 35px 25px black;
+  opacity: 0.8; }
 
 .aboutme {
   color: #366328;
@@ -60,7 +61,8 @@ body {
   border: 2px solid #cccccc;
   margin-top: 1%;
   margin-bottom: 50px;
-  box-shadow: 35px 35px 25px black; }
+  box-shadow: 35px 35px 25px black;
+  opacity: 0.8; }
 
 .connect {
   color: #366328;

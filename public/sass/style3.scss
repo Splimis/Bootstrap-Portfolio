@@ -56,6 +56,8 @@ body {
 	margin-top: 1%;
 	margin-bottom: 50px;
 	box-shadow: 35px 35px 25px black;
+	opacity: 0.8;
+
 }
 
 .aboutme{
@@ -89,10 +91,11 @@ body {
 	margin-top: 1%;
 	margin-bottom: 50px;
 	box-shadow: 35px 35px 25px black;
+	opacity: 0.8;
 }
 
 .connect{
-	color: #366328;
+	color: $lrgTxtClr;
 	text-align: center;
 	font-family: $primaryText; 
 	font-weight: bold;
