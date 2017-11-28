@@ -3,16 +3,11 @@ body {
   padding-bottom: 6rem; }
 
 .navbar {
+  border-bottom: 2px solid #cccccc;
+  border-radius: 0;
   background-color: black;
-  border: solid;
-  border-bottom-width: 3px;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  border-color: #cccccc;
   width: 100%;
-  opacity: .7;
-  border-radius: 0px; }
+  opacity: .7; }
 
 .navbar-header {
   height: 100px;
@@ -36,7 +31,8 @@ body {
   border: 2px solid #cccccc;
   background: black;
   margin-top: 1%;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  box-shadow: 35px 35px 25px black; }
 
 .aboutme {
   color: #366328;
@@ -46,14 +42,11 @@ body {
   margin-bottom: 3%;
   opacity: .6; }
 
-.port {
+.photo {
   height: 35%;
   width: 35%;
   float: left;
-  padding-top: 0;
-  padding-bottom: 1%;
-  padding-left: 0;
-  padding-right: 4%; }
+  padding: 0 3% 1% 0; }
 
 .bio-text {
   color: #777777;
@@ -66,7 +59,8 @@ body {
   background-color: black;
   border: 2px solid #cccccc;
   margin-top: 1%;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  box-shadow: 35px 35px 25px black; }
 
 .connect {
   color: #366328;
@@ -81,20 +75,14 @@ body {
   margin-bottom: 5%; }
 
 .footer {
+  border-top: 2px solid #cccccc;
   background-color: black;
-  right: 0;
-  left: 0;
-  bottom: 0;
   width: 100%;
   height: 80px;
-  border-top: solid;
   opacity: .6; }
 
-.footer .footerText {
-  margin-top: 2%;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
+.footerText {
+  margin-top: 30px;
   text-align: center;
   color: white; }
 

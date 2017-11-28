@@ -8,6 +8,14 @@ $lrgTxt: #366328;
 	border: 2px solid $borderColor;
 }
 
+@mixin nav-border {
+	border-bottom: 2px solid $borderColor;
+	border-radius: 0;
+}
+
+@mixin foot-border{
+	border-top: 2px solid $borderColor;
+}
 
 body {
 	background-image: url(../../public/assets/aurora.jpg);
@@ -15,16 +23,10 @@ body {
 }
 
 .navbar{
+	@include nav-border;
 	background-color: black;
-	border: solid;
-	border-bottom-width: 3px;
-	border-left: 0;
-	border-right: 0;
-	border-top: 0;
-	border-color: $borderColor;
 	width: 100%;
 	opacity: .7;
-	border-radius: 0px;
 }
 
 .navbar-header{
@@ -53,6 +55,7 @@ body {
 	background: black;
 	margin-top: 1%;
 	margin-bottom: 50px;
+	box-shadow: 35px 35px 25px black;
 }
 
 .aboutme{
@@ -64,14 +67,11 @@ body {
 	opacity: .6;
 }
 
-.port{
+.photo{
 	height: 35%;
 	width: 35%;
 	float: left;
-	padding-top:0;
-	padding-bottom:1%;
-	padding-left:0;
-	padding-right:4%; 
+	padding:0 3% 1% 0; 
 }
 
 .bio-text{
@@ -87,6 +87,7 @@ body {
 	@include normal-border;
 	margin-top: 1%;
 	margin-bottom: 50px;
+	box-shadow: 35px 35px 25px black;
 }
 
 .connect{
@@ -104,21 +105,15 @@ body {
 }
 
 .footer {
+	@include foot-border;
 	background-color: black;
-	right: 0;
-	left: 0;
-	bottom: 0;
 	width: 100%;
 	height: 80px;
-	border-top: solid;
 	opacity: .6;
 }
 
-.footer .footerText {
-	margin-top: 2%;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
+.footerText {
+	margin-top: 30px;
 	text-align:center;
 	color: white;
 }
