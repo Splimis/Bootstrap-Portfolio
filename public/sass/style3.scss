@@ -1,8 +1,9 @@
 $nameText:'Noto Serif', serif;
 $primaryText:'Georgia', Times, 'Times New Roman', serif;
 $smallText:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+$headFontSize: 2.1em;
 $borderColor: #cccccc;
-$lrgTxt: #366328;
+$lrgTxtClr: #366328;
 
 @mixin normal-border {
 	border: 2px solid $borderColor;
@@ -31,18 +32,17 @@ body {
 
 .navbar-header{
 	height: 100px;
-	border-radius: 15px;
-	opacity: .6;
+	opacity: .8;
 }
 
 .myName{
 	color: white;
-	font-size: 2em;
+	font-size: $headFontSize;
 	font-family: $nameText;
 	font-weight: bold;
 	padding-left: 15%;
 	padding-right: 15%;
-	margin-top: 5%;
+	margin-top: 8%;
 } 
 
 .nav-button{
@@ -59,8 +59,9 @@ body {
 }
 
 .aboutme{
-	color: $lrgTxt;
+	color: $lrgTxtClr;
 	font-family: $primaryText;
+	font-size: $headFontSize; 
 	font-weight: bold;
 	margin-top: 4%;
 	margin-bottom: 3%;
@@ -77,7 +78,7 @@ body {
 .bio-text{
 	color: #777777;		
 	font-size: 1.1em;
-	line-height: 100%;
+	line-height: 23px;
 	font-family: $smallText;
 	padding-bottom: 10px;
 }
@@ -124,7 +125,7 @@ body {
 }
 
 .carousel-txt{
-	color: $lrgTxt;
+	color: $lrgTxtClr;
 	font-family: $nameText;
 	opacity: 0.7;
 }
