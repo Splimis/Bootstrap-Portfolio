@@ -29,7 +29,7 @@ body {
 .about {
   border: 2px solid #cccccc;
   background: black;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 50px;
   box-shadow: 35px 35px 25px black;
   opacity: 0.8; }
@@ -59,7 +59,7 @@ body {
 .lnkbtns {
   background-color: black;
   border: 2px solid #cccccc;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 50px;
   box-shadow: 35px 35px 25px black;
   opacity: 0.8; }
