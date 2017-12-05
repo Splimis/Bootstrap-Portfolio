@@ -114,6 +114,18 @@ body {
   transform: scale(1.2);
 }
 
+.fBook, .sBook, .tBook {
+  height: 30%;
+  width: 30%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  transition: transform .5s; 
+}
+
+.fBook:hover, .sBook:hover, .tBook:hover {
+  transform: scale(2.0);
+}
+
 .footer {
 	@include foot-border;
 	background-color: black;
