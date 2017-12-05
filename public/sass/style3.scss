@@ -85,10 +85,10 @@ body {
 	padding-bottom: 10px;
 }
 
-.lnkbtns{
+.upper, .lower {
 	background-color: black;
 	@include normal-border;
-	margin-top: 2%;
+	margin-top: 10%;
 	margin-bottom: 50px;
 	box-shadow: 35px 35px 25px black;
 	opacity: 0.8;

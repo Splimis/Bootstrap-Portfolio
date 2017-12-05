@@ -56,10 +56,10 @@ body {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   padding-bottom: 10px; }
 
-.lnkbtns {
+.upper, .lower {
   background-color: black;
   border: 2px solid #cccccc;
-  margin-top: 2%;
+  margin-top: 10%;
   margin-bottom: 50px;
   box-shadow: 35px 35px 25px black;
   opacity: 0.8; }
