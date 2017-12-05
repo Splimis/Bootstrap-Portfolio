@@ -102,10 +102,16 @@ body {
 	opacity: .7;
 }
 
-.link, .git, .stack{
-	height: 30%;
-	width: 30%;
-	margin-bottom: 5%;
+.link, .git, .stack {
+  height: 30%;
+  width: 30%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  transition: transform .5s; 
+}
+
+.link:hover, .git:hover, .stack:hover {
+  transform: scale(1.2);
 }
 
 .footer {
